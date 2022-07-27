@@ -42,3 +42,7 @@ cover: https://gw.alipayobjects.com/zos/alicdn/tX6-md4H6/Affix.svg
 Affix 一般只适用于单向滚动的区域，只支持在垂直滚动容器中使用。如果希望在水平容器中使用，你可以考虑使用 原生 `position: sticky` 实现。
 
 相关 issue: [#29108](https://github.com/ant-design/ant-design/issues/29108)
+
+### Affix 滚动失效问题
+
+给根节点设置类似如overflow:auto; overflow:auto; overflow-x:hidden;等属性会导致失效
